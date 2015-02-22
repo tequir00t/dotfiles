@@ -1,0 +1,19 @@
+set editor = "emacs -nw"
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set mbox_type=Maildir
+set spoolfile="~/Maildir/INBOX/"
+set folder="~/Maildir"
+set mask="!^\\.[^.]"
+set record="+.Sent"
+set postponed="+.Drafts"
+set sort=reverse-date
+alternative_order text/plain text/html
+auto_view text/html
+folder-hook . 'set read_inc=1000'
+folder-hook . 'set sort="reverse-date"'
+macro index c "<change-folder>?<toggle-mailboxes>" "open a different folder"
+macro pager c "<change-folder>?<toggle-mailboxes>" "open a different folder"
+bind index ">" next-unread-mailbox 
+bind pager ">" next-unread-mailbox 
