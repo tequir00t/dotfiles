@@ -1,0 +1,26 @@
+[global_config]
+  window_state = maximise
+  title_inactive_fg_color = "#0038bd"
+[keybindings]
+  group_tab = <Super>h
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_image = None
+    background_darkness = 0.89
+    scrollback_lines = 250
+    use_system_font = False
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    font = Inconsolata for Powerline Medium 13
+    background_color = "#002833"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
