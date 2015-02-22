@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/orgmode/todo.org")
+ (front-context-string . "*** TODO Buy new")
+ (rear-context-string . "ersonal server.\n")
+ (position . 17227))
+("org-capture-last-stored"
+ (filename . "~/orgmode/notes.org")
+ (front-context-string . "** [[http://gohi")
+ (rear-context-string . "o 11:39]\n:END:\n\n")
+ (position . 125))
+("handshake"
+ (filename . "~/PWK/prep/report/report.tex")
+ (front-context-string . "\\begin{lstlistin")
+ (rear-context-string . "ng -f argument:\n")
+ (position . 7635))
+("mona"
+ (filename . "~/PWK/prep/report/report.tex")
+ (front-context-string . "          [+] Th")
+ (rear-context-string . "ters\n0BADF00D  \n")
+ (position . 51470))
+)

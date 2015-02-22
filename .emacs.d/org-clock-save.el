@@ -1,0 +1,2 @@
+;; org-persist.el - My-PC.lan at <2015-02-21 Sa 20:02>
+(setq stored-clock-history '(("/home/daniel/orgmode/refile.org" . 363) ("/home/daniel/orgmode/refile.org" . 21) ("/home/daniel/orgmode/refile.org" . 1962)))

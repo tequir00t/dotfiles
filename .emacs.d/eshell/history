@@ -1,0 +1,5 @@
+ls
+file 42706AB.zlib.raw
+binwalk 42706AB.zlib.ra
+binwalk 42706AB.zlib.raw
+ls
