@@ -1498,7 +1498,6 @@ Late deadlines first, then scheduled, then non-late deadlines"
 
 (add-hook 'org-clock-out-hook 'bh/remove-empty-drawer-on-clock-out 'append)
 
-(setq org-caldav-url "https://hak4life.de:27891/remote.php/caldav/calendars/daniel")
 (setq org-caldav-calendar-id "orgmode")
 (setq org-caldav-inbox "/home/daniel/orgmode/inbox.org")
 (setq org-caldav-files org-agenda-files)
