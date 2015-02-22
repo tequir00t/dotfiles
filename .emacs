@@ -1421,8 +1421,6 @@ Late deadlines first, then scheduled, then non-late deadlines"
 
 (setq org-id-method (quote uuidgen))
 
-(setq org-clock-sound "~/Music/rammstein_-_du_hast.mp3")
-
 (setq org-habit-graph-column 50)
 
 (defvar bh/insert-inactive-timestamp t)
