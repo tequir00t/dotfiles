@@ -1502,6 +1502,3 @@ Late deadlines first, then scheduled, then non-late deadlines"
 (setq org-caldav-inbox "/home/daniel/orgmode/inbox.org")
 (setq org-caldav-files org-agenda-files)
 (setq org-icalendar-timezone "Europe/Berlin")
-
-
-(add-to-list 'auto-mode-alist '("\\.pp\\'" . ruby-mode))
